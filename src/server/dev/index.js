@@ -39,6 +39,7 @@ module.exports = class DevServer {
           },
         },
       },
+      notify: false,
       https: {key: getSSLKeyPath(), cert: getSSLCertPath()},
       logLevel: 'silent',
       socket: {
